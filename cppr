@@ -1,2 +1,9 @@
-#!/bin/bash
-g++ "$@" -o out && ./out
+#!/usr/bin/env bash
+
+# first argument
+file="$1"
+
+# remove .cpp from file name
+out="${file%.cpp}"
+
+g++ "$@" -o "$out" && ./"$out"
