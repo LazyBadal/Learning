@@ -23,16 +23,5 @@ int  main(){
 
     cout << "New System: " << "\x9c" << pound << '.' << 100*(shillings*12+pence)/240;
 
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
