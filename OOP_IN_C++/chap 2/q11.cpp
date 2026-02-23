@@ -5,6 +5,7 @@ using namespace std;
 int main(){
     // setiosflags(ios::left) can be repalced with simple left also
     cout << setiosflags(ios::left) << setw(15) << "Last Name" << setw(15) << "First Name" << setw(15) << "Town" << endl;
+    cout << left << "YO";
     cout << setfill('-') << setw(40) << "";
     return 0;
 }
