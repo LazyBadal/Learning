@@ -19,7 +19,7 @@ public:
 
 int main() {
     Manager m;
-
+    
     m.setSalary(50000);
     m.displaySalary();
 
